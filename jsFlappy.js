@@ -51,8 +51,8 @@ document.addEventListener('DOMContentLoaded' , () => {
 
             //show the pillers at the top and bottom as pillars in ramdomly generated numbers in the limited height
             function generateObstacle() {
-                let obstacleLeft = 600
-                let randomHeight = Math.random() * 60
+                let obstacleLeft = 900
+                let randomHeight = Math.random() * 80
                 let obstacleBottom = randomHeight
                 const obstacle = document.createElement('div')
                 const topObstacle = document.createElement('div')

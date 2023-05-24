@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Black Han Sans', sans-serif;
-    font-size: 22px; .
+    font-size: 22px; 
 }
 
 /* body {
@@ -67,7 +67,7 @@ button{
 }
 
 .sky {
-    background-image: url('bg_img.png');
+    background-image: url('images/bg_img.png');
     width: 100vw;
     height: 600px;
     position: absolute;
@@ -76,7 +76,7 @@ button{
 }
 
 .ground {
-    background-image: url('bottom-background.png');
+    background-image: url('images/bottom-background.png');
     width: 100vw;
     height: 150px;
     position: absolute;
@@ -85,7 +85,7 @@ button{
 }
 
 .bird {
-    background-image: url('bird_2.gif');
+    background-image: url('images/bird_2.gif');
     position: absolute;
     width: 90px;
     height: 70px;
@@ -101,7 +101,7 @@ button{
 
 
 .obstacle {
-    background-image: url('buttompipe1.png');
+    background-image: url('images/buttompipe1.png');
     width: 60px;
     height: 300px;
     background-size: cover; 
@@ -114,7 +114,7 @@ button{
 }
 
 .topObstacle {
-    background-image: url('buttompipe1.png');
+    background-image: url('images/buttompipe1.png');
     transform: rotate(180deg);
     width: 60px;
     height: 300px;
@@ -160,7 +160,7 @@ button{
     position: absolute;
     top: 580px;
     height: 150px;
-    background-image: url('bottom-background.png');
+    background-image: url('images/bottom-background.png');
     background-repeat: repeat-x;
     animation: slideright 1000s infinite linear;
     -webkit-animation: slideright 1000s infinite linear;
