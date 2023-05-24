@@ -128,18 +128,3 @@ document.addEventListener('DOMContentLoaded' , () => {
     })
     
     
-    
-    
-    // function showGameOverScreen(){
-    //     const gameOverMessage = document.createElement('div');
-    //     gameOverMessage.textContent = 'Game Over';
-    //     gameOverMessage.classList.add('game-over');
-   
-    //     const restartButton = document.createElement('button');
-    //     restartButton.textContent = 'Restart';
-    //     restartButton.classList.add('restart-button');
-    //     restartButton.addEventListener('click', restartGame);
-  
-    //     gameDisplay.appendChild(gameOverMessage);
-    //     gameDisplay.appendChild(restartButton);
-    // }
